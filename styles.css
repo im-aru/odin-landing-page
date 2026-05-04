@@ -12,7 +12,7 @@ button {
   background-color: #3882f6;
   color: white;
   padding: 8px 32px;
-  border-radius: 10px;
+  border-radius: 6px;
   border-width: 0;
   font-weight: 900;
 }
@@ -57,11 +57,13 @@ button {
 
 .hero-main {
   font-size: 48px;
+  margin: 0px;
 }
 
 .hero-secondary {
   color: #e5e7eb;
   font-size: 18px;
+  margin: 8px 0px;
 }
 
 .hero-content {
@@ -80,4 +82,25 @@ button {
 
 .hero-text {
   flex: 1;
+}
+
+.info-header {
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.info-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.placeholder {
+  border-radius: 10px;
+  width:100px;
+  height: 100px;
+  border-color: #3882f6;
+  border: 3px solid #3882f6;
 }
