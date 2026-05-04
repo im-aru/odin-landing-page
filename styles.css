@@ -10,7 +10,11 @@ li a {
 
 button {
   background-color: #3882f6;
-  color:white;
+  color: white;
+  padding: 8px 32px;
+  border-radius: 10px;
+  border-width: 0;
+  font-weight: 900;
 }
 
 .hero,
@@ -29,16 +33,17 @@ button {
   font-weight: 900;
 }
 
-.header-logo {
-  font-size: 24px;
-  margin: 0;
-}
-
 .header {
   padding-top: 16px;
   display: flex;
   justify-content: space-between;
   align-content: center;
+  margin-bottom: 80px;
+}
+
+.header-logo {
+  font-size: 24px;
+  margin: 0;
 }
 
 .header-links {
@@ -59,3 +64,20 @@ button {
   font-size: 18px;
 }
 
+.hero-content {
+  display: flex;
+  gap: 36px;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9faf8;
+  background-color: grey;
+}
+
+.hero-text {
+  flex: 1;
+}
