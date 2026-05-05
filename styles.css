@@ -92,6 +92,7 @@ button {
 }
 
 .info-container {
+  padding-top: 20px;
   display: flex;
   gap: 48px;
   justify-content: center;
@@ -122,27 +123,25 @@ button {
 .quote-background {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  /* justify-content: end; */
   align-items: center;
-  margin-top: 100px;
+  margin-top: 80px;
   padding: 40px 120px;
   background-color: #e5e7eb;
 }
 
 .quote {
-    max-width: 680px;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
-    color: #1f2937;
-    margin: 0;
+  max-width: 680px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  margin: 0;
 }
 
 .signature {
-    max-width: 500px;
-    font-size: 20px;
-    padding-top: 0px;
-    font-weight: 900;
-    align-self: flex-end;
-    flex-grow: 0;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: end;
+  flex-grow: 0;
 }
