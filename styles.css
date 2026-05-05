@@ -87,20 +87,62 @@ button {
 .info-header {
   text-align: center;
   font-size: 36px;
-  color: #1F2937;
+  color: #1f2937;
   font-weight: 900;
 }
 
 .info-container {
-  display:flex;
-  align-items: center;
+  display: flex;
+  gap: 48px;
   justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 100px;
 }
 
 .placeholder {
   border-radius: 10px;
-  width:100px;
+  width: 100px;
   height: 100px;
   border-color: #3882f6;
   border: 3px solid #3882f6;
+}
+
+.info-desc {
+  color: #616870;
+  font-size: 11px;
+}
+
+.quote-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  margin-top: 100px;
+  padding: 40px 120px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+    max-width: 680px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    margin: 0;
+}
+
+.signature {
+    max-width: 500px;
+    font-size: 20px;
+    padding-top: 0px;
+    font-weight: 900;
+    align-self: flex-end;
+    flex-grow: 0;
 }
